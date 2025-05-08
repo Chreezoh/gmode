@@ -1,4 +1,4 @@
-# Supabase Auth with Next.js
+# Gmode
 
 A Next.js application with Supabase authentication integration. This project demonstrates how to implement user authentication using Supabase in a Next.js application.
 
@@ -30,8 +30,8 @@ A Next.js application with Supabase authentication integration. This project dem
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Chreezoh/supabase-auth-nextjs.git
-   cd supabase-auth-nextjs
+   git clone https://github.com/Chreezoh/gmode.git
+   cd gmode
    ```
 
 2. Install dependencies:
