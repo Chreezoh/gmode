@@ -1,0 +1,35 @@
+/* Custom global styles */
+input {
+  color: black !important;
+}
+
+/* Ensure all text is readable */
+p, span, h1, h2, h3, h4, h5, h6, label, div {
+  color: #1a202c !important; /* Dark gray, almost black */
+}
+
+/* Make sure form labels are visible */
+label {
+  color: #2d3748 !important; /* Dark gray */
+  font-weight: 500 !important;
+}
+
+/* For dark mode, we still want to ensure readability */
+@media (prefers-color-scheme: dark) {
+  input {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  /* Override dark mode text colors */
+  .bg-white p, .bg-white span, .bg-white h1, .bg-white h2,
+  .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6,
+  .bg-white label, .bg-white div {
+    color: #1a202c !important;
+  }
+
+  /* Ensure backgrounds are light for readability */
+  .bg-white, .bg-gray-50, .bg-gray-100 {
+    background-color: white !important;
+  }
+}
